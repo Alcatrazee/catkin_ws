@@ -1,0 +1,16 @@
+uint8 request_flag
+---
+float32 acc_x
+float32 acc_y
+float32 acc_z
+float32 gx
+float32 gy
+float32 gz
+float32 gps_long
+float32 gps_lat
+float32 gps_PDOP
+uint8 gps_num_of_satellite
+float32 steps_Left
+float32 steps_Right
+float32 TimeStamp
+uint64  msg_ID

@@ -1,0 +1,11 @@
+<launch>
+    <!-- Turtlesim Node-->
+    <node pkg="IMU_MESSAGE_NODE" type="imu_puber.py" name="IMU_DATA_PUBLISHER"/>
+    <node pkg="IMU_MESSAGE_NODE" type="imu_reader.py" name="IMU_DATA_LISTENER" output="screen" />
+
+    <node pkg="nmea_navsat_driver" type="nmea_serial_driver" name="gps_serial_reader" >
+        <param name="port" type="string" value="/dev/ttyACM0" />
+        <param name="baud" type="int" value="9600" />   
+    </node>
+
+</launch>

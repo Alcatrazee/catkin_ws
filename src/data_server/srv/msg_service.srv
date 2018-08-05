@@ -1,0 +1,10 @@
+uint8 request_flag
+---
+float32 gps_long
+float32 gps_lat
+float32 IMU_Pitch
+float32 IMU_Roll
+float32 IMU_Yaw
+float32 VEL_Left
+float32 VEL_Right
+float32 TimeStamp

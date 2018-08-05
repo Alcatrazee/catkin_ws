@@ -1,0 +1,4 @@
+<launch>
+    <!-- mocap_router Node-->
+    <node pkg="mocap_router" type="mocap_router.py" name="mocap_router"/>
+</launch>
